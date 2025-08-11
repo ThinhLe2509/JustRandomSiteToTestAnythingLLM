@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AnythingLLM Embed Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1.5rem 0;
+    }
+    main {
+      padding: 2rem;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background: #eee;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AnythingLLM Embed Demo</h1>
+    <p>Nhúng chatbot từ AnythingLLM qua HTTPS</p>
+  </header>
+
+  <main>
+    <h2>Xin chào 👋</h2>
+    <p>Đây là trang demo để test AnythingLLM embed widget khi chạy local qua ngrok.</p>
+    <p>Khi bạn nhấn vào biểu tượng chat ở góc dưới màn hình, widget sẽ mở ra.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 AnythingLLM Demo | Powered by ngrok
+  </footer>
+
+  <!-- AnythingLLM Embed -->
+  <script
+    data-embed-id="YOUR-EMBED-ID"
+    data-base-api-url="https://abc123.ngrok-free.app/api/embed"
+    data-greeting="Xin chào! Tôi có thể giúp gì?"
+    data-position="bottom-right"
+    data-primary-color="#4CAF50"
+    src="https://abc123.ngrok-free.app/embed/anythingllm-chat-widget.min.js">
+  </script>
+</body>
+</html>
 
